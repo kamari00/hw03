@@ -14,6 +14,7 @@ def collatz_sequence_steps(n):
     end_time = time.time()
     return end_time - start_time, steps
 
+
 def calculate_average_steps_for_numbers(num_numbers, num_threads):
     start_time = time.time()
     results = {
